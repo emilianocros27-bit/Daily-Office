@@ -1,0 +1,34 @@
+// !$*UTF8*$!
+{ archiveVersion = 1; classes = {}; objectVersion = 56; objects = {
+4411227784337DBB3AE28994 = { isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "App.swift"; sourceTree = "<group>"; };
+A249DDA19BB41A53BB8F2494 = { isa = PBXBuildFile; fileRef = 4411227784337DBB3AE28994; };
+5BD127711BCA2662AC0AB15D = { isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "MainView.swift"; sourceTree = "<group>"; };
+69AA46C647C97756C5D961E2 = { isa = PBXBuildFile; fileRef = 5BD127711BCA2662AC0AB15D; };
+8BF4A28E43F6CF370D3EE1C2 = { isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Models.swift"; sourceTree = "<group>"; };
+487C502A5481E87001E8CC43 = { isa = PBXBuildFile; fileRef = 8BF4A28E43F6CF370D3EE1C2; };
+6565341F741F2903B2B3CC7F = { isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "OfficeStore.swift"; sourceTree = "<group>"; };
+01945EF30CC8E9C62475921A = { isa = PBXBuildFile; fileRef = 6565341F741F2903B2B3CC7F; };
+1200156F9FDB3A662D94CF69 = { isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Services.swift"; sourceTree = "<group>"; };
+CBB9E81DBC149638FC518AE7 = { isa = PBXBuildFile; fileRef = 1200156F9FDB3A662D94CF69; };
+A9BCA438417D62B8BB39B2EE = { isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Views.swift"; sourceTree = "<group>"; };
+4AF090DF56D724E72C1CAF6A = { isa = PBXBuildFile; fileRef = A9BCA438417D62B8BB39B2EE; };
+5001ED438367178C282CCB4B = { isa = PBXFileReference; lastKnownFileType = text.json; path = DefaultSkills.json; sourceTree = "<group>"; };
+AE6C15B3FEAFAD10BD58FE07 = { isa = PBXBuildFile; fileRef = 5001ED438367178C282CCB4B; };
+8831FD350F537FBD3CAB7A3A = { isa = PBXFileReference; lastKnownFileType = folder; path = Skills; sourceTree = SOURCE_ROOT; };
+F1743A17E768F6B6A67513C9 = { isa = PBXBuildFile; fileRef = 8831FD350F537FBD3CAB7A3A; };
+0189424A5A60FED329FA868E = { isa = PBXResourcesBuildPhase; buildActionMask = 2147483647; files = (AE6C15B3FEAFAD10BD58FE07,F1743A17E768F6B6A67513C9,); runOnlyForDeploymentPostprocessing = 0; };
+7D1043473D55BFA90E8530D3 = { isa = PBXFileReference; explicitFileType = wrapper.application; path = "Daily Office.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+BCE16DD0260827ECF338C787 = { isa = PBXSourcesBuildPhase; buildActionMask = 2147483647; files = (A249DDA19BB41A53BB8F2494,69AA46C647C97756C5D961E2,487C502A5481E87001E8CC43,01945EF30CC8E9C62475921A,CBB9E81DBC149638FC518AE7,4AF090DF56D724E72C1CAF6A,); runOnlyForDeploymentPostprocessing = 0; };
+F178867DA2879CAE0F60630A = { isa = PBXFrameworksBuildPhase; buildActionMask = 2147483647; files = (); runOnlyForDeploymentPostprocessing = 0; };
+E6FB06210FAFC02FD7479DDB = { isa = PBXGroup; children = (4411227784337DBB3AE28994,5BD127711BCA2662AC0AB15D,8BF4A28E43F6CF370D3EE1C2,6565341F741F2903B2B3CC7F,1200156F9FDB3A662D94CF69,A9BCA438417D62B8BB39B2EE,5001ED438367178C282CCB4B,8831FD350F537FBD3CAB7A3A,); path = DailyOffice; sourceTree = "<group>"; };
+FBDC4F23F93125BBEEAE800C = { isa = PBXGroup; children = (7D1043473D55BFA90E8530D3,); name = Products; sourceTree = "<group>"; };
+B28B7AF69320201D1CF206EB = { isa = PBXGroup; children = (E6FB06210FAFC02FD7479DDB,FBDC4F23F93125BBEEAE800C,); sourceTree = "<group>"; };
+89E1FD6268CC0F221A2BE178 = { isa = XCBuildConfiguration; buildSettings = {MACOSX_DEPLOYMENT_TARGET = 14.0; SDKROOT = macosx; SWIFT_VERSION = 5.0; CLANG_ENABLE_MODULES = YES;}; name = Debug; };
+7082CC0B6FC1282FCEABD07A = { isa = XCBuildConfiguration; buildSettings = {MACOSX_DEPLOYMENT_TARGET = 14.0; SDKROOT = macosx; SWIFT_VERSION = 5.0; CLANG_ENABLE_MODULES = YES; PRODUCT_NAME = "Daily Office"; PRODUCT_BUNDLE_IDENTIFIER = app.dailyoffice.mac; GENERATE_INFOPLIST_FILE = YES; INFOPLIST_KEY_LSUIElement = YES; INFOPLIST_KEY_NSScreenCaptureUsageDescription = "Daily Office captura la región que eliges para enviarla al agente seleccionado."; INFOPLIST_KEY_NSAppleEventsUsageDescription = "Daily Office abre Terminal para ejecutar el comando de tu proyecto."; CODE_SIGN_STYLE = Automatic; CODE_SIGN_IDENTITY = "-"; ENABLE_APP_SANDBOX = NO; CURRENT_PROJECT_VERSION = 1; MARKETING_VERSION = 1.0; SWIFT_EMIT_LOC_STRINGS = YES; SWIFT_OPTIMIZATION_LEVEL = "-Onone";}; name = Debug; };
+E6DE6C99132752C914FEF632 = { isa = XCBuildConfiguration; buildSettings = {MACOSX_DEPLOYMENT_TARGET = 14.0; SDKROOT = macosx; SWIFT_VERSION = 5.0; CLANG_ENABLE_MODULES = YES;}; name = Release; };
+639A7CA24D39909E713B47F7 = { isa = XCBuildConfiguration; buildSettings = {MACOSX_DEPLOYMENT_TARGET = 14.0; SDKROOT = macosx; SWIFT_VERSION = 5.0; CLANG_ENABLE_MODULES = YES; PRODUCT_NAME = "Daily Office"; PRODUCT_BUNDLE_IDENTIFIER = app.dailyoffice.mac; GENERATE_INFOPLIST_FILE = YES; INFOPLIST_KEY_LSUIElement = YES; INFOPLIST_KEY_NSScreenCaptureUsageDescription = "Daily Office captura la región que eliges para enviarla al agente seleccionado."; INFOPLIST_KEY_NSAppleEventsUsageDescription = "Daily Office abre Terminal para ejecutar el comando de tu proyecto."; CODE_SIGN_STYLE = Automatic; CODE_SIGN_IDENTITY = "-"; ENABLE_APP_SANDBOX = NO; CURRENT_PROJECT_VERSION = 1; MARKETING_VERSION = 1.0; SWIFT_EMIT_LOC_STRINGS = YES; SWIFT_OPTIMIZATION_LEVEL = "-O";}; name = Release; };
+FBD3510CED826C9DAA696E48 = { isa = XCConfigurationList; buildConfigurations = (89E1FD6268CC0F221A2BE178,E6DE6C99132752C914FEF632,); defaultConfigurationIsVisible = 0; defaultConfigurationName = Release; };
+DBC1F132A3B6D94B1DF33607 = { isa = XCConfigurationList; buildConfigurations = (7082CC0B6FC1282FCEABD07A,639A7CA24D39909E713B47F7,); defaultConfigurationIsVisible = 0; defaultConfigurationName = Release; };
+0E8A3AD980EC179856012B7E = { isa = PBXNativeTarget; buildConfigurationList = DBC1F132A3B6D94B1DF33607; buildPhases = (BCE16DD0260827ECF338C787,F178867DA2879CAE0F60630A,0189424A5A60FED329FA868E,); buildRules = (); dependencies = (); name = DailyOffice; productName = "Daily Office"; productReference = 7D1043473D55BFA90E8530D3; productType = "com.apple.product-type.application"; };
+98F54143AB4E86B28C3AFEE0 = { isa = PBXProject; attributes = {LastSwiftUpdateCheck = 2700; LastUpgradeCheck = 2700;}; buildConfigurationList = FBD3510CED826C9DAA696E48; compatibilityVersion = "Xcode 14.0"; developmentRegion = es; hasScannedForEncodings = 0; knownRegions = (es,en,Base); mainGroup = B28B7AF69320201D1CF206EB; productRefGroup = FBDC4F23F93125BBEEAE800C; projectDirPath = ""; projectRoot = ""; targets = (0E8A3AD980EC179856012B7E,); };
+}; rootObject = 98F54143AB4E86B28C3AFEE0; }
